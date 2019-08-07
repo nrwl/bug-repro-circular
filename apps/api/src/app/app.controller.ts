@@ -4,6 +4,8 @@ import { Message } from '@circular/api-interfaces';
 
 import { AppService } from './app.service';
 
+export const X = 100;
+
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
